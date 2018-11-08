@@ -2,7 +2,7 @@
 //  Users.swift
 //  BlackJack
 //
-//  Created by Xcode User on 2018-11-05.
+//  Created by Xcode User DanielNawrocki on 2018-11-05.
 //  Copyright © 2018 Xcode User. All rights reserved.
 //
 
