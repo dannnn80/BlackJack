@@ -11,12 +11,15 @@ public class Users {
     public var Fullname: String = ""
     public var Username: String = ""
     public var Password: String = ""
-    //public var Wins: Int?
-    //public var Losses: Int?
-  //  public var currChipAmt : Int?
+    public var Wins: Int?
+    public var Losses: Int?
+    public var currChipAmt : Int?
     
     
-  //  public init(fullname)
+    public init(Username: String, Password: String , Wins: Int, Losses: Int, currChipAmt: Int)
+    {
+        
+    }
     
     
     
