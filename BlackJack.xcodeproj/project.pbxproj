@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AE366F97219BE9D40031690D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE366F96219BE9D40031690D /* Card.swift */; };
+		AE366F99219C65130031690D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE366F98219C65130031690D /* Image.swift */; };
+		AE366F9B219C66880031690D /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE366F9A219C66880031690D /* Hand.swift */; };
+		AE366F9D219C73EF0031690D /* Chips.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE366F9C219C73EF0031690D /* Chips.swift */; };
+		AE366F9F219C75570031690D /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE366F9E219C75570031690D /* Deck.swift */; };
 		AE8C71002190CCD3009A4D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8C70FF2190CCD3009A4D03 /* AppDelegate.swift */; };
 		AE8C71022190CCD3009A4D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8C71012190CCD3009A4D03 /* ViewController.swift */; };
 		AE8C71052190CCD3009A4D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8C71032190CCD3009A4D03 /* Main.storyboard */; };
@@ -18,6 +22,10 @@
 
 /* Begin PBXFileReference section */
 		AE366F96219BE9D40031690D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		AE366F98219C65130031690D /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		AE366F9A219C66880031690D /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		AE366F9C219C73EF0031690D /* Chips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chips.swift; sourceTree = "<group>"; };
+		AE366F9E219C75570031690D /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		AE8C70FC2190CCD3009A4D03 /* BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8C70FF2190CCD3009A4D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE8C71012190CCD3009A4D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,8 +72,12 @@
 				AE8C71062190CCD5009A4D03 /* Assets.xcassets */,
 				AE8C71082190CCD5009A4D03 /* LaunchScreen.storyboard */,
 				AE8C710B2190CCD5009A4D03 /* Info.plist */,
-				AE8C71112190CDF3009A4D03 /* Users.swift */,
 				AE366F96219BE9D40031690D /* Card.swift */,
+				AE8C71112190CDF3009A4D03 /* Users.swift */,
+				AE366F98219C65130031690D /* Image.swift */,
+				AE366F9A219C66880031690D /* Hand.swift */,
+				AE366F9C219C73EF0031690D /* Chips.swift */,
+				AE366F9E219C75570031690D /* Deck.swift */,
 			);
 			path = BlackJack;
 			sourceTree = "<group>";
@@ -143,8 +155,12 @@
 			files = (
 				AE8C71022190CCD3009A4D03 /* ViewController.swift in Sources */,
 				AE8C71122190CDF3009A4D03 /* Users.swift in Sources */,
+				AE366F9B219C66880031690D /* Hand.swift in Sources */,
 				AE8C71002190CCD3009A4D03 /* AppDelegate.swift in Sources */,
+				AE366F9F219C75570031690D /* Deck.swift in Sources */,
 				AE366F97219BE9D40031690D /* Card.swift in Sources */,
+				AE366F99219C65130031690D /* Image.swift in Sources */,
+				AE366F9D219C73EF0031690D /* Chips.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,7 +19,22 @@ public class Card {
         case Spade
          case Club
     }
-    public enum Face
+    public enum CardValue
+    {
+        case One
+        case Two
+        case Three
+        case Four
+        case Five
+        case Six
+        case Seven
+        case Eight
+        case Nine
+        case Ten
+        case Eleven
+    }
+
+    public enum CardName
     {
         case Ace
         case Two
@@ -35,7 +50,11 @@ public class Card {
         case Queen
         case King
     }
-   
-    
+
+    public enum CardPosition
+    {
+        case Faceup
+        case Facedown
+    }
     
 }
