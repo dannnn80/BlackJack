@@ -49,6 +49,7 @@ public class Card {
         case Jack
         case Queen
         case King
+        
     }
 
     public enum CardPosition
@@ -56,5 +57,52 @@ public class Card {
         case Faceup
         case Facedown
     }
+    
+    
+    static func random1() -> CardName {
+        var all: [CardName] = [.Ace,
+    .Two,
+    .Three,
+    .Four,
+    .Five,
+    .Six,
+    .Seven,
+    .Eight,
+    .Nine,
+    .Ten,
+    .Jack,
+    .Queen,
+    .King ]
+
+        
+     
+//let all2: [Suit] = [.Heart,
+ //                       .Diamond,
+  //                      .Spade,
+   //                     .Club,
+                        
+ //]
+        
+        
+    let randomIndex = Int(arc4random()) % all.count
+    //let randomIndex2 = Int(arc4random()) % all2.count
+      //  let card = String(all[randomIndex])! +=  String(all2[randomIndex2])
+        return all[randomIndex];
+    
+    }
+    
+    
+
+    
+    static func random() -> Suit{
+    let all: [Suit] = [.Diamond,
+    .Heart,
+    .Spade,
+    .Club]
+    let randomIndex = Int(arc4random()) % all.count
+    return all[randomIndex]
+    
+    }
+    
     
 }

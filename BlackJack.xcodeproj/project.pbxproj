@@ -18,6 +18,7 @@
 		AE8C71072190CCD5009A4D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8C71062190CCD5009A4D03 /* Assets.xcassets */; };
 		AE8C710A2190CCD5009A4D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8C71082190CCD5009A4D03 /* LaunchScreen.storyboard */; };
 		AE8C71122190CDF3009A4D03 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8C71112190CDF3009A4D03 /* Users.swift */; };
+		AEAE753F21A33D8E001D882F /* Requirment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE753E21A33D8E001D882F /* Requirment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		AE8C71092190CCD5009A4D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE8C710B2190CCD5009A4D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE8C71112190CDF3009A4D03 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		AEAE753E21A33D8E001D882F /* Requirment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requirment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,20 +68,29 @@
 		AE8C70FE2190CCD3009A4D03 /* BlackJack */ = {
 			isa = PBXGroup;
 			children = (
+				AEAE753D21A33D44001D882F /* New Group */,
 				AE8C70FF2190CCD3009A4D03 /* AppDelegate.swift */,
 				AE8C71012190CCD3009A4D03 /* ViewController.swift */,
 				AE8C71032190CCD3009A4D03 /* Main.storyboard */,
 				AE8C71062190CCD5009A4D03 /* Assets.xcassets */,
 				AE8C71082190CCD5009A4D03 /* LaunchScreen.storyboard */,
 				AE8C710B2190CCD5009A4D03 /* Info.plist */,
-				AE366F96219BE9D40031690D /* Card.swift */,
-				AE8C71112190CDF3009A4D03 /* Users.swift */,
-				AE366F98219C65130031690D /* Image.swift */,
-				AE366F9A219C66880031690D /* Hand.swift */,
-				AE366F9C219C73EF0031690D /* Chips.swift */,
-				AE366F9E219C75570031690D /* Deck.swift */,
 			);
 			path = BlackJack;
+			sourceTree = "<group>";
+		};
+		AEAE753D21A33D44001D882F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AE366F98219C65130031690D /* Image.swift */,
+				AE8C71112190CDF3009A4D03 /* Users.swift */,
+				AE366F9A219C66880031690D /* Hand.swift */,
+				AE366F9E219C75570031690D /* Deck.swift */,
+				AE366F9C219C73EF0031690D /* Chips.swift */,
+				AE366F96219BE9D40031690D /* Card.swift */,
+				AEAE753E21A33D8E001D882F /* Requirment.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				AE366F97219BE9D40031690D /* Card.swift in Sources */,
 				AE366F99219C65130031690D /* Image.swift in Sources */,
 				AE366F9D219C73EF0031690D /* Chips.swift in Sources */,
+				AEAE753F21A33D8E001D882F /* Requirment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
