@@ -1,5 +1,5 @@
 //
-//  Hand.swift
+//  Deck.swift
 //  BlackJack
 //
 //  Created by Xcode User on 2018-11-14.
@@ -7,9 +7,9 @@
 //
 
 import Foundation
-public class Hand : Card
+public class Deck: Requirment
 {
-    
+    public var card: Card
     
     
 }
